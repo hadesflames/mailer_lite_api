@@ -43,7 +43,7 @@ Navigate to the root directory of this project in your local system on a cmd/ter
     php artisan db:seed
 
 ### API Paths
-SUBSCRIBERS:
+## SUBSCRIBERS:
     GET
         /api/subscriber => gets an array of all subscribers in DB
         /api/subscriber/{id} => gets the subscriber with specified id
@@ -55,7 +55,7 @@ SUBSCRIBERS:
     DELETE
         /api/subscriber/{id} => Deletes subscriber with specified id.
 
-FIELDS:
+## FIELDS:
     GET
         /api/field => gets an array of all fields in DB
         /api/field/{id} => gets the field with specified id
